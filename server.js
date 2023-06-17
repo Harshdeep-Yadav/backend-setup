@@ -9,7 +9,7 @@ const app = express();
 
 // rest api's
 app.get("/", (req, res) => {
-    res.send("Welcome to jamecho");
+    res.send("Welcome to server help (backend)");
 });
 
 // PORT
